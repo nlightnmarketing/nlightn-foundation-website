@@ -86,20 +86,9 @@
     }
   }
 
-  function resolveUrl(path) {
-    var base = document.querySelector("base");
-    if (base && base.getAttribute("href")) {
-      return new URL(path, base.href).href;
-    }
-    var script = document.currentScript;
-    if (script && script.src) {
-      return new URL(path, script.src).href;
-    }
-    return path;
-  }
-
-  var headerUrl = resolveUrl("assets/header.html");
-  var footerUrl = resolveUrl("assets/footer.html");
+  /* Use root-relative URLs so header/footer load on any path (e.g. 404 pages). */
+  var headerUrl = "/assets/header.html";
+  var footerUrl = "/assets/footer.html";
 
   Promise.all([
     headerEl ? fetch(headerUrl).then(function (r) { return r.text(); }) : Promise.resolve(""),
