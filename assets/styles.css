@@ -813,4 +813,85 @@ p {
   transform: translateY(-1px);
 }
 
+/* About page (CAST-style sections) */
+.about-page {
+  padding: 48px 0 64px;
+}
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 1rem 0;
+}
+.about-lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0 0 2.5rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.about-h2 {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 2rem 0 1rem 0;
+}
+.about-h2:first-of-type {
+  margin-top: 0;
+}
+.about-block {
+  margin-bottom: 0.5rem;
+}
+.about-block p {
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--muted);
+}
+.about-block p:last-child {
+  margin-bottom: 0;
+}
+.text-link-inline {
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.text-link-inline:hover {
+  color: var(--accent-ink);
+}
+.about-find-more {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.about-find-card {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--paper);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.about-find-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.about-find-label {
+  display: block;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin-bottom: 0.25rem;
+}
+.about-find-card span:last-child {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+@media (min-width: 640px) {
+  .about-find-more {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
