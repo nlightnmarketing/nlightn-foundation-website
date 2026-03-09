@@ -1,0 +1,13 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" rx="40" fill="#E9F3F1"/>
+  <rect x="120" y="120" width="1360" height="660" rx="32" fill="#FBFBF7" stroke="#0B3D35" stroke-opacity="0.15"/>
+  <circle cx="520" cy="450" r="190" fill="#127C6B" fill-opacity="0.12"/>
+  <circle cx="980" cy="450" r="190" fill="#127C6B" fill-opacity="0.12"/>
+  <path d="M520 330C586.274 330 640 383.726 640 450C640 516.274 586.274 570 520 570C453.726 570 400 516.274 400 450C400 383.726 453.726 330 520 330Z" fill="#127C6B" fill-opacity="0.18"/>
+  <path d="M980 330C1046.27 330 1100 383.726 1100 450C1100 516.274 1046.27 570 980 570C913.726 570 860 516.274 860 450C860 383.726 913.726 330 980 330Z" fill="#127C6B" fill-opacity="0.18"/>
+  <text x="180" y="720" fill="#0B3D35" fill-opacity="0.55" font-family="Arial, Helvetica, sans-serif" font-size="40">
+    Placeholder image — swap with program photos
+  </text>
+</svg>
+
+

@@ -1,0 +1,15 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Agency pin">
+  <title>Agency</title>
+  <circle cx="260" cy="200" r="170" fill="#2AA6A4"/>
+  <circle cx="260" cy="200" r="120" fill="#fff"/>
+  <!-- simplified agency icon -->
+  <g transform="translate(150,120)" stroke="#2AA6A4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M30 90c0-22 18-40 40-40s40 18 40 40" />
+    <path d="M120 40a40 40 0 1 1-80 0 40 40 0 0 1 80 0z" />
+    <path d="M40 20h80" />
+    <path d="M10 110h120" />
+  </g>
+  <path d="M260 360 L220 300 L300 300 Z" fill="#2AA6A4"/>
+</svg>
+
+

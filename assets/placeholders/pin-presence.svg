@@ -1,0 +1,22 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Presence pin">
+  <title>Presence</title>
+  <defs>
+    <clipPath id="c">
+      <circle cx="260" cy="200" r="150"/>
+    </clipPath>
+  </defs>
+  <!-- outer pin shape -->
+  <path d="M260 30a170 170 0 1 0 0 340 170 170 0 0 0 0-340z" fill="#FF6124"/>
+  <!-- inner white circle -->
+  <circle cx="260" cy="200" r="120" fill="#fff"/>
+  <!-- laptop icon (simplified) -->
+  <g transform="translate(170,150)" fill="#FF6124">
+    <rect x="20" y="10" width="120" height="80" rx="8" fill="none" stroke="#FF6124" stroke-width="12"/>
+    <path d="M0 120h200l-20-30H20z" fill="#FF6124"/>
+    <rect x="80" y="90" width="40" height="8" rx="3" fill="#fff"/>
+  </g>
+  <!-- pointer -->
+  <path d="M260 360 L220 300 L300 300 Z" fill="#FF6124"/>
+</svg>
+
+

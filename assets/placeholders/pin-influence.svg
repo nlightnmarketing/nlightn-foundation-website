@@ -1,0 +1,15 @@
+<svg width="520" height="520" viewBox="0 0 520 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Influence pin">
+  <title>Influence</title>
+  <circle cx="260" cy="200" r="170" fill="#F7C117"/>
+  <circle cx="260" cy="200" r="120" fill="#fff"/>
+  <!-- phone + megaphone icon simplified -->
+  <g transform="translate(170,130)" fill="none" stroke="#F7C117" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="30" y="10" width="80" height="120" rx="12" />
+    <path d="M50 60h40" />
+    <path d="M115 50c10 0 25 6 25 20s-15 20-25 20" />
+    <path d="M120 58c6 0 18 5 18 14s-12 14-18 14" />
+  </g>
+  <path d="M260 360 L220 300 L300 300 Z" fill="#F7C117"/>
+</svg>
+
+
