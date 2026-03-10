@@ -103,6 +103,11 @@
       setYear();
     }
     initMenuAndScroll();
+    /* Contact us: prevent # jump; add chatbot open logic here later */
+    ["open-chatbot", "open-chatbot-mobile", "open-chatbot-footer"].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener("click", function (e) { e.preventDefault(); /* TODO: open chatbot */ });
+    });
   }).catch(function () {
     if (headerEl) headerEl.innerHTML = "<p class=\"muted\">Header could not be loaded. Please view this site from a web server.</p>";
     if (footerEl) footerEl.innerHTML = "<footer class=\"site-footer\"><div class=\"container\"><p class=\"muted\">Footer could not be loaded.</p></div></footer>";
