@@ -10,7 +10,7 @@ This repo contains:
 ### Files
 
 - `index.html` (home)
-- `about.html`, `our-work.html`, `blog.html`, `contact.html`, `get-involved.html`, `search.html`
+- `about.html`, `our-work.html`, `blog.html`, `get-involved.html`, `search.html`
 - `assets/styles.css`, `assets/main.js`, `assets/placeholders/hero.svg`
 
 ### How to host

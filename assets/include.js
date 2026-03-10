@@ -103,10 +103,13 @@
       setYear();
     }
     initMenuAndScroll();
-    /* Contact us: prevent # jump; add chatbot open logic here later */
+    /* Contact us / chatbot: prevent # jump; add chatbot open logic here later */
     ["open-chatbot", "open-chatbot-mobile", "open-chatbot-footer"].forEach(function (id) {
       var el = document.getElementById(id);
       if (el) el.addEventListener("click", function (e) { e.preventDefault(); /* TODO: open chatbot */ });
+    });
+    document.querySelectorAll(".open-chatbot-link").forEach(function (el) {
+      el.addEventListener("click", function (e) { e.preventDefault(); /* TODO: open chatbot */ });
     });
   }).catch(function () {
     if (headerEl) headerEl.innerHTML = "<p class=\"muted\">Header could not be loaded. Please view this site from a web server.</p>";
