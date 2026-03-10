@@ -889,6 +889,64 @@ p {
   font-size: 0.9rem;
   color: var(--muted);
 }
+
+/* Founders section */
+.about-founders {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 2rem;
+}
+.about-founder-card {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+.about-founder-photo {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 8px;
+  background: var(--border);
+}
+.about-founder-photo-sreenath {
+  object-position: 35% 25%;
+}
+.about-founder-info {
+  min-width: 0;
+}
+.about-founder-name {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--ink);
+  margin: 0 0 0.25rem 0;
+}
+.about-founder-role {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 1rem 0;
+}
+.about-founder-desc {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .about-founder-card {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .about-founder-photo {
+    width: 100%;
+    max-width: 280px;
+    height: 280px;
+  }
+}
+
 @media (min-width: 640px) {
   .about-find-more {
     grid-template-columns: repeat(3, 1fr);
